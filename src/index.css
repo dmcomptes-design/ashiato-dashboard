@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --sumi-black: #1A1A1A;
+  --paper-cream: #F4F1EA;
+  --accent-pink: #E8A598;
+  --neutral-grey: #8C8C8C;
+}
+
+body {
+  background-color: var(--paper-cream);
+  color: var(--sumi-black);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+h1, h2, h3, .font-serif-jp {
+  font-family: 'Noto Serif JP', serif;
+}
